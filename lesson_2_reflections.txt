@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A hidden .git file is created. This means git is used for this directory
+after this point. All git processes can be done to this directory.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+I think it is something between working directory and repository. It is not committed
+yet but is not in the working directory also.
