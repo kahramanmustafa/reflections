@@ -18,3 +18,17 @@ How would branches help?
 If we have working code, but we want to try some other features but without affecting the
 working code, branches are very helpful. We can make branches for new tryings and we keep
 the working code as a master, even we can develop it also as a main branch.
+
+How do the diagrams help you visualize the branch structure?
+By drawing diagrams we can easily understand the commit hierarchy according to time and branches.
+We can easily understand the reachability of all commmits also by using diagrams.
+
+What is the result of merging two branches together? Why do we represent in the diagram the way we do?
+It merges the codes by looking the last commits of branches and their root commits. 
+It is easy to understand merge process by visualizing the commits.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+It is adventagious because it is time saving. But some times there could be conflicts which
+Git cannot automatically determines to choose which of them, so at that point manual merge will
+be helpful.
