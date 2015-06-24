@@ -11,3 +11,10 @@ yet but is not in the working directory also.
 
 How can you use the staging area to make sure you have one commit per logical change?
 By looking git status, if there is one file in stage it means only that file will be committed.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+If we have working code, but we want to try some other features but without affecting the
+working code, branches are very helpful. We can make branches for new tryings and we keep
+the working code as a master, even we can develop it also as a main branch.
