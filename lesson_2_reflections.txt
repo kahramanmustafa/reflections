@@ -8,3 +8,6 @@ What value do you think it offers?
 
 I think it is something between working directory and repository. It is not committed
 yet but is not in the working directory also.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By looking git status, if there is one file in stage it means only that file will be committed.
